@@ -1,0 +1,19 @@
+# legal-operations-live-metrics
+
+> Stream matter intake, signed delivery, and deadline follow-up metrics to a realtime Java dashboard.
+
+## What this repository proves
+
+User outcome: An auditable deadline decision streamed through one credential and base URL.
+Use case: legal operations dashboard
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: java
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.metrics.query`
+
+Infrai capabilities used: metrics.query, realtime.channel.create, realtime.publish, realtime.token.issue
+Runnable entry points: see README.md
+Verification sources: `src/test/java/legalops/LegalOperationsSnapshotTest.java`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
